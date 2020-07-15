@@ -1,0 +1,27 @@
+.eggMain {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.eggMain .eggPrize {
+  width: 100%;
+  height: 400px;
+}
+.eggMain .eggPrize ul {
+  display: flex;
+  justify-content: space-around;
+}
+.eggMain .eggPrize ul li {
+  width: 200px;
+  height: 200px;
+  background-image: url(../../../../images/egg_1.png);
+  background-size: cover;
+  text-align: center;
+  line-height: 200px;
+}
+.eggMain .eggPrize .knockNum {
+  margin-top: 80px;
+  font-size: 34px;
+}
